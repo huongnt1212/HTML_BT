@@ -7,24 +7,27 @@
     font-size: 11px;
 }
 
-.text-bold{
+.text-bold {
     font-weight: bold;
 }
 
-.text-italic{
+.text-italic {
     font-style: italic;
 }
 .red{
     color: red;
 }
 
-.green-under-line{
+.green-under-line {
     font-style: italic;
     color: green;
     text-decoration: underline;
 }
 
-.img-size{
+.img-size {
     width: 500px;
     height: 700px;
+}
+.ui, li {
+    font-family: Consolas;
 }
