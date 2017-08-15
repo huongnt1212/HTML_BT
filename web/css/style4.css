@@ -1,0 +1,134 @@
+.body {
+    font-size: 13px;
+    color: #333333;
+    background-color: #ffffff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", '繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3', '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.header {
+    display: block;
+    font-style: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: bold;
+}
+
+.footer {
+    display: block;
+    font-style: 2em;
+    font-weight: normal;
+}
+
+.header, footer {
+    padding: 20px 50px;
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+main {
+    width: 70%;
+    float: left;
+    margin: 10px 3px; 1px;
+    padding: 10px;
+    border-left: gray solid 1px;
+}
+
+nav, ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul, menu {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+
+.error {
+    border: red solid 1px;
+    color: red;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h3 {
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.form-group {
+    border-collapse: collapse;
+    display: table;
+    width: 800px;
+}
+
+.caption {
+    display: table-caption;
+}
+
+label {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.cell {
+    border: solid #ccc;
+    display: table-cell;
+    padding: 3px 0 3px 5px;
+
+}
+
+.cell-left {
+    width: 200px;
+}
+
+.cell-right {
+    width: 600px;
+}
+
+.width-70 {
+    width: 70%;
+
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.policy-content {
+    overflow-y: scroll;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696969;
+}
+
+.policy {
+    padding: 25px;
+}
+
+.clear-both {
+    clear: both;
+}
