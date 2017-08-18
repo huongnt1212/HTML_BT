@@ -1,0 +1,66 @@
+header, footer {
+    float: center;
+    display: block;
+    background: pink;
+
+}
+
+nav {
+    float: left;
+    width: 30%;
+}
+
+
+.clear-both {
+    clear: both;
+}
+
+.image {
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.text-avatar {
+    color: pink;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.change-image {
+    color: palevioletred;
+    background: palegoldenrod;
+    margin-left: 25px;
+}
+
+main {
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+
+div.form-group {
+    border-collapse: collapse;
+    display: table;
+    width: 750px;
+}
+
+.cell label {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+div.cell {
+    border: 1px solid #ccc;
+    display: table-cell;
+    padding: 15px 10px;
+}
+
+div.row {
+    display: table-row;
+}
+
+.profile-detail {
+    color: peru;
+
+}
