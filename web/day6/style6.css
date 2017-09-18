@@ -1,0 +1,30 @@
+.container, header, main, footer {
+    border-style: solid;
+    border-width: 1px;
+    background: none;
+
+}
+
+header {
+    background: white;
+    margin-top: 0;
+    height: 100px;
+    background: pink;
+}
+
+main {
+    background: #6fa8dc;
+
+}
+
+footer {
+    background: greenyellow;
+    height: 10%;
+    margin-bottom: 0;
+    height: 80px;
+    text-align: center;
+}
+
+.clear-both {
+    clear: both;
+}
